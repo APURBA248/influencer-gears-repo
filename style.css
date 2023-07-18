@@ -37,6 +37,7 @@ li>a{
     text-decoration: none;
 }
 /* Nav Bar End*/
+/* Header Banner Start */
 .benar-container{
     display: flex;
     justify-content: space-between;
@@ -64,6 +65,7 @@ li>a{
     font-weight: 700;
     font-size: 1rem;
     margin-top: 25px;
+    border: 0px;
 
 }
 .benar-btn i{
@@ -73,8 +75,22 @@ li>a{
     padding: 30px 32px 30px 2px;
    
 }
-
+/* Header Banner End */
 /* header End */
+/* main Start */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+/* logo Section Start */
+.logos-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+/* logo Section End */
+/* main End */
 /* Media Query For Mobile User */
 @media screen and (max-width:576px) {
     /* header Start */
@@ -108,14 +124,22 @@ li>a{
     .benar-info{
         margin-top: 20px;
     }
-
-
     /* Header Banner End */
     /* header End */
+    /* Main Start */
+    /* logo Section Start */
+    .logos-img{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    /* logo Section End */
+    /* Main End */
 
 }
 /* Media Query For Tablet User */
 @media screen and (min-width:576px) and (max-width:992px) {
+    /* header Start */
+    /* Nav Bar Start*/
     nav{
         margin: 0;
         flex-direction: column;
@@ -127,6 +151,8 @@ li>a{
         text-align: center;
         border-bottom: 2px solid gray;
     }
+    /* Nav Bar End*/
+    /* Header Banner Start */
     .benar-container{
         background-position: top center;
         margin: 20px 0px;
@@ -142,4 +168,14 @@ li>a{
     .benar-info{
         margin-top: 20px;
     }
+     /* Header Banner End */
+    /* header End */
+    /* Main Start */
+    /* logo Section Start */
+    .logos-img{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    /* logo Section End */
+    /* Main End */
 }
