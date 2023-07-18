@@ -127,4 +127,19 @@ li>a{
         text-align: center;
         border-bottom: 2px solid gray;
     }
+    .benar-container{
+        background-position: top center;
+        margin: 20px 0px;
+        flex-direction: column-reverse;
+        background-size:400px ;
+        padding: 10px;
+        text-align: center;
+    }
+    .benar-container img{
+        width: 400px;
+        padding: 10px;
+    }
+    .benar-info{
+        margin-top: 20px;
+    }
 }
