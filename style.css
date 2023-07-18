@@ -40,10 +40,45 @@ li>a{
 .benar-container{
     display: flex;
     justify-content: space-between;
+    background-image: url('./images/Circle\ design.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 145px 132px 0px 120px;
+    align-items: center;
 }
+.baner-title{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.benar-desc{
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.benar-btn{
+    border-radius: 40px;
+    background: #E02C6D;
+    padding: 5px 24px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 25px;
+
+}
+.benar-btn i{
+    margin-left: 10px;
+}
+.benar-container img{
+    padding: 30px 32px 30px 2px;
+   
+}
+
 /* header End */
 /* Media Query For Mobile User */
 @media screen and (max-width:576px) {
+    /* header Start */
+    /* Nav Bar Start*/
     nav{
         margin: 0;
         flex-direction: column;
@@ -56,6 +91,28 @@ li>a{
         text-align: center;
         border-bottom: 2px solid gray;
     }
+    /* Nav Bar End*/
+    /* Header Banner Start */
+    .benar-container{
+        background-position: top center;
+        margin: 20px 0px;
+        flex-direction: column-reverse;
+        background-size:300px ;
+        padding: 10px;
+        text-align: center;
+    }
+    .benar-container img{
+        width: 300px;
+        padding: 10px;
+    }
+    .benar-info{
+        margin-top: 20px;
+    }
+
+
+    /* Header Banner End */
+    /* header End */
+
 }
 /* Media Query For Tablet User */
 @media screen and (min-width:576px) and (max-width:992px) {
