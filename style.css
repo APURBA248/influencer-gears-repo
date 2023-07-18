@@ -66,6 +66,7 @@ li > a {
   font-size: 1rem;
   margin-top: 25px;
   border: 0px;
+  cursor: pointer;
 }
 .benar-btn i {
   margin-left: 10px;
@@ -127,6 +128,23 @@ main {
   font-size: 0.8rem;
   font-weight: 700;
 }
+.sec-btn{
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+.sec-btn > button{
+    background-color: #fff;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-size: 1rem;
+    border: 0px;
+    cursor: pointer;
+}
+.sec-btn > button i{
+    padding-left: 10px;
+}
 /* Collection Section End */
 /* main End */
 /* Media Query For Mobile User */
@@ -186,6 +204,7 @@ main {
     text-align: center;
   }
   /* Collection Section End */
+  
   /* Main End */
 }
 /* Media Query For Tablet User */
