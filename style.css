@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@100&family=Open+Sans:wght@800&family=Poppins:wght@400;500;600;700&family=Work+Sans:ital,wght@1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* header Start */
+/* Nav Bar Start*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 130px;
+}
+nav>h3{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+ul{
+    display: flex;
+    gap: 34px;
+}
+ul>li{
+    list-style: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 1rem;
+}
+ul>li i{
+    color: #3A3A3A;
+}
+li>a{
+    text-decoration: none;
+}
+/* Nav Bar End*/
+.benar-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* header End */
+/* Media Query For Mobile User */
+@media screen and (max-width:576px) {
+    nav{
+        margin: 0;
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav>h3{
+        text-align: center;
+        border-bottom: 2px solid gray;
+    }
+}
+/* Media Query For Tablet User */
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        margin: 0;
+        flex-direction: column;
+    }
+    ul{
+        justify-content: center;
+    }
+    nav>h3{
+        text-align: center;
+        border-bottom: 2px solid gray;
+    }
+}
