@@ -8,7 +8,7 @@
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
 }
-/* header Start */
+/* Header Start */
 /* Nav Bar Start*/
 nav {
   display: flex;
@@ -75,20 +75,20 @@ li > a {
   padding: 30px 32px 30px 2px;
 }
 /* Header Banner End */
-/* header End */
-/* main Start */
+/* Header End */
+/* Main Start */
 main {
   max-width: 1440px;
   margin: 0px auto;
 }
-/* logo Section Start */
+/* Logo Section Start */
 .logos-img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 70px;
 }
-/* logo Section End */
+/* Logo Section End */
 /* Collection Section Start */
 .Collection-Sec {
   margin-top: 100px;
@@ -174,10 +174,36 @@ main {
     padding-left: 10px;
 }
 /* Featured Section End */
-/* main End */
+/* Main End */
+/* Footer Start */
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background: #0A0826;
+    color: #fff;
+    padding: 50px 0px;
+}
+footer>h3{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 3px;
+}
+footer>p{
+font-size: 0.8rem;
+font-weight: 700;
+}
+.footer-icons{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+/* Footer End */
+
+
 /* Media Query For Mobile User */
 @media screen and (max-width: 576px) {
-  /* header Start */
+  /* Header Start */
   /* Nav Bar Start*/
   nav {
     margin: 0;
@@ -209,14 +235,14 @@ main {
     margin-top: 20px;
   }
   /* Header Banner End */
-  /* header End */
+  /* Header End */
   /* Main Start */
-  /* logo Section Start */
+  /* Logo Section Start */
   .logos-img {
     flex-wrap: wrap;
     gap: 20px;
   }
-  /* logo Section End */
+  /* Logo Section End */
   /* Collection Section Start */
   .cards {
     grid-template-columns: repeat(1, 1fr);
@@ -246,10 +272,15 @@ main {
   }
   /* Featured Section End */
   /* Main End */
+  /* Footer Start */
+  
+  /* Footer End */
 }
+
+
 /* Media Query For Tablet User */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  /* header Start */
+  /* Header Start */
   /* Nav Bar Start*/
   nav {
     margin: 0;
@@ -280,14 +311,14 @@ main {
     margin-top: 20px;
   }
   /* Header Banner End */
-  /* header End */
+  /* Header End */
   /* Main Start */
-  /* logo Section Start */
+  /* Logo Section Start */
   .logos-img {
     flex-wrap: wrap;
     gap: 20px;
   }
-  /* logo Section End */
+  /* Logo Section End */
   /* Collection Section Start */
   .cards {
     grid-template-columns: repeat(2, 1fr);
@@ -314,4 +345,7 @@ main {
   }
   /* Featured Section End */
   /* Main End */
+  /* Footer Start */
+
+  /* Footer End */
 }
